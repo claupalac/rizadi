@@ -5,11 +5,7 @@ CustomEase.create("main", "0.65, 0.01, 0.05, 0.99");
 // Default duration -20 % (×0.8) across the board
 gsap.defaults({ ease: "main", duration: 0.56 });
 
-/* ─────────────────────────────────────────────────────────────────
-   1.  INTRO — Entry animation + nav colour switch on scroll
-       No exit / disappearing animation.
-       CSS scroll-snap handles the jump to the gallery section.
-   ───────────────────────────────────────────────────────────────── */
+
 function initScrollReveal() {
   const logo      = document.querySelector(".intro__logo");
   const textBlock = document.querySelector(".intro__text-block");
