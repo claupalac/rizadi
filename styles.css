@@ -842,7 +842,7 @@ p, h1, h2, h3 { margin: 0; }
 }
 
 .contacto__heading {
-  font-size: clamp(4.5rem, 8vw, 8rem);
+  font-size: clamp(4.5rem, 5vw, 8rem);
   font-weight: 700;
   line-height: 0.88;
   letter-spacing: -0.04em;
